@@ -1,0 +1,14 @@
+{
+   "manifest_version": 3 ,
+   "name" :"Simple Youtube Downloader" ,
+   "description" : "Download youtube videos simplar than before." ,
+   "version" : "1.0" ,
+   "author" : "Abdullah Wawi" ,
+   "content_scripts" : [
+      {
+         
+         "matches" :["https://www.youtube.com/watch*"], 
+         "js" : ["JS/script.js"]
+      }
+   ]
+}
