@@ -4,11 +4,16 @@
    "description" : "Download youtube videos simplar than before." ,
    "version" : "1.0" ,
    "author" : "Abdullah Wawi" ,
+   "web_accessible_resources" :[{
+      "resources" : ["src/script.js"],
+      "matches" : ["https://www.youtube.com/watch*"],
+      "use_dynamic_url": true
+   }],
    "content_scripts" : [
       {
          
          "matches" :["https://www.youtube.com/watch*"], 
-         "js" : ["JS/script.js"]
+         "js" : ["JS/s2.js"]
       }
    ]
 }
